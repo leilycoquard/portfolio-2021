@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% include seo.html %}
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/page.style">
   </head>
+
   <body>
     {% include header.html %}
-    {{ content }}
+
+    <main>
+      {{ content }}
+    </main>
     {% include footer.html %}
   </body>
+
 </html>
