@@ -1,14 +1,14 @@
 robots: all
 author: Leïly Coquard 
+lang: "fr"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 defaultTheme: light
 themeColor: "#FCD8B9"
 themeColorLight: "#FCD8B9"
 themeColorDark: "#1D2326"
 keyword: 'leïly coquard, leily coquard, mmi, mmi bordeaux'
-title: "LEÏLY COQUARD" # the name of your site, e.g. ACME Corp.
+title: "Leïly Coquard PORTFOLIO" # the name of your site, e.g. ACME Corp.
 baseurl: "" # the subpath of your site, e.g. /blog
-lang: "fr"
 
 sass:
   style: compact
