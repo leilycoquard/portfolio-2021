@@ -1,0 +1,25 @@
+@import 'var';
+@import 'header';
+@import 'footer';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) { // max md
+    :root {
+        font-size: calc(15px + 0.1vw);
+    }
+}
+@media screen and (min-width: 768px) { // min md
+    :root {
+        font-size: calc(8px + 0.4vw);
+    }
+}

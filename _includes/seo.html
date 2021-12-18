@@ -1,0 +1,57 @@
+<meta name="robots" content="{{ site.robots }}">
+<meta name="target" content="{{ site.robots }}">
+<meta name="author" content="{{ site.author }}">
+<meta name="owner" content="{{ site.author }}">
+<meta name="language" content="{{ site.lang }}">
+
+<meta http-equiv="content-language" content="{{ site.lang }}" />
+<meta name="url" content="{{ site.url }}">
+<meta name="identifier-URL" content="{{ site.url }}">
+<link rel="canonical" href="{{ site.url }}" />
+
+<title>{{ page.title }} - {{ site.title }}</title>
+<meta name="subject" content="{{ site.subject }}">
+<meta name="description" content="{{ page.description }}" />
+<meta name="keywords" content="{{ site.keywords }}">
+<meta name="theme-color" content="{{ site.themeColor }}">
+
+<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:site_name" content="{{ site.author }}" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:locale" content="{{ site.lang }}" />
+<meta property="og:image" content="{{ site.url }}/assets/img/hero-min.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title  }} - {{ site.title }}" />
+<meta name="twitter:description" content="{{ page.description }}" />
+<meta name="twitter:site" content="{{ site.url }}" />
+<meta name="twitter:image" content="{{ site.url }}/assets/img/hero-min.jpg" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="{{ page.title  }} - {{ site.title }}" />
+<meta name="apple-mobile-web-app-status-bar-style" content="{{ site.themeColor }}">
+
+<!-- Apple meta -->
+<link rel="apple-touch-icon" href="{{ site.url }}/assets/img/apple/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/assets/img/apple/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/img/apple/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/assets/img/apple/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/img/apple/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/assets/img/apple/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/img/apple/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/assets/img/apple/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/img/apple/apple-touch-icon-180x180.png" />
+
+<link rel="icon" href="{{ site.url }}/assets/img/apple/favicon.ico">
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "{{ site.author }}",
+        "url": "{{ site.url }}",
+        "address": "{{ site.adress }}"
+    }
+</script>
