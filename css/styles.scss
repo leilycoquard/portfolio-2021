@@ -16,6 +16,11 @@ main {
     overflow: hidden;
 }
 
+mark.red {
+    color: var(--important);
+    background: none;
+}
+
 html[data-theme="dark"] .hidden-dark-mode {
     display: none;
 }
