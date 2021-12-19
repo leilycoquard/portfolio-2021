@@ -7,7 +7,7 @@ themeColor: "#FCD8B9"
 themeColorLight: "#FCD8B9"
 themeColorDark: "#1D2326"
 keyword: 'leïly coquard, leily coquard, mmi, mmi bordeaux'
-title: "Leïly Coquard PORTFOLIO" # the name of your site, e.g. ACME Corp.
+title: "Leïly Coquard PORTFOLIO" # the name of your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 sass:
