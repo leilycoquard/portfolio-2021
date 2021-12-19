@@ -1,0 +1,55 @@
+@import "fonts";
+
+html[data-theme="light"] {
+    --b1: #FCD8B9;
+    --b2: #C8B5CC;
+    --b3: #BAC9B9;
+    --b4: #FBEB9E;
+    --t1: #1D2326;
+    --t2: #1D2326;
+    --t3: #1D2326;
+    --t4: #1D2326;
+    --important: #FF5252;
+}
+
+html[data-theme="dark"] {
+    --b1: #1D2326;
+    --b2: #1D2326;
+    --b3: #1D2326;
+    --b4: #1D2326;
+    --t1: #FCD8B9;
+    --t2: #C8B5CC;;
+    --t3: #BAC9B9; 
+    --t4: #FBEB9E;
+    --important: #FF5252;
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        /* titres */
+        --h1: 700 1.875rem  "Roboto Slab", serif;
+        --h2: 500 1.563rem  "Roboto", sans-serif;
+        --h3: 500 1.25rem  "Roboto", sans-serif;
+        --h4: 500 1.25rem  "Roboto", sans-serif;
+        --h5: 500 1.25rem  "Roboto", sans-serif;
+        
+        /* contenu */
+        --p: 400 1.25rem  "Roboto", sans-serif;
+        --label: 300 1.25rem  "Roboto", sans-serif;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        /* titres */
+        --h1: 700 4.375rem  "Roboto Slab", serif;
+        --h2: 700 3.75rem  "Roboto Slab", serif;
+        --h3: 500 3.75rem  "Roboto", sans-serif;
+        --h4: 500 1.563rem  "Roboto", sans-serif;
+        --h5: 500 1.25rem  "Roboto", sans-serif;
+        
+        /* contenu */
+        --p: 400 1.25rem  "Roboto", sans-serif;
+        --label: 300 1.25rem  "Roboto", sans-serif;
+    }
+}

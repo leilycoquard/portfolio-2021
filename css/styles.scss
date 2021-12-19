@@ -13,6 +13,13 @@ main {
     overflow: hidden;
 }
 
+html[data-theme="dark"] .hidden-dark-mode {
+    display: none;
+}
+html[data-theme="light"] .hidden-light-mode {
+    display: none;
+}
+
 @media screen and (max-width: 768px) { // max md
     :root {
         font-size: calc(15px + 0.1vw);
@@ -23,3 +30,11 @@ main {
         font-size: calc(8px + 0.4vw);
     }
 }
+
+h1 { font: var(--h1) !important }
+h2 { font: var(--h2) !important}
+h3 { font: var(--h3) !important}
+h4 { font: var(--h4) !important}
+h5 { font: var(--h5) !important}
+span, a, p { font: var(--p) !important}
+label { font: var(--label) !important}
