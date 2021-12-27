@@ -12,11 +12,41 @@ footer {
         line-height: 0;
     }
 
+    .footer_flex {
+        padding: var(--paddingheight) var(--paddingside);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media screen and (min-width:768px) {
+        .footer_flex {
+            flex-direction: row;
+        }
+        .left {
+            flex-direction: row;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .footer_flex {
+            flex-direction: column;
+        }   
+        .left {
+            flex-direction: column;
+            align-items: center;
+        }
+        .right {
+            align-self: center;
+        }
+    }
+
     .left {
+        display: flex;
         text-transform: capitalize;
     }
 
     .right {
+        display: flex;
         text-transform: uppercase;
     }
 }
