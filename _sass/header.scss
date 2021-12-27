@@ -11,6 +11,7 @@ header {
 
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
         }
 
         .left {
@@ -19,6 +20,7 @@ header {
 
         .right {
             margin: 1rem;
+            align-self: flex-end;
         }
     }
     
