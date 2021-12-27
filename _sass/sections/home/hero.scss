@@ -8,13 +8,10 @@
     }
 
     .nav {
-        display: flex;
-        justify-content: center;
     }
     .menu {
-        display: flex;
-        flex-flow: row wrap;
-        
-        border: solid var(--t1);
+    }
+
+    .flex-items {
     }
 }
