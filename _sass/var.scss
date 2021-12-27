@@ -27,29 +27,29 @@ html[data-theme="dark"] {
 @media screen and (max-width: 768px) {
     html{
         /* titres */
-        --h1: 700 1.875rem  "Roboto Slab", serif;
-        --h2: 500 1.563rem  "Roboto", sans-serif;
-        --h3: 500 1.25rem  "Roboto", sans-serif;
-        --h4: 500 1.25rem  "Roboto", sans-serif;
-        --h5: 500 1.25rem  "Roboto", sans-serif;
+        --h1: 700 1.875rem  "NotoSerifJP", serif;
+        --h2: 500 1.563rem  "NotoSerifJP", serif;
+        --h3: 500 1.25rem  "NotoSerifJP", serif;
+        --h4: 500 1.25rem  "NotoSerifJP", serif;
+        --h5: 500 1.25rem  "NotoSerifJP", serif;
         
         /* contenu */
-        --p: 400 1.25rem  "Roboto", sans-serif;
-        --label: 300 1.25rem  "Roboto", sans-serif;
+        --p: 400 1.25rem  "Lato", sans-serif;
+        --label: 300 1.25rem  "NotoSerifJP", serif;
     }
 }
 
 @media screen and (min-width: 768px) {
     html {
         /* titres */
-        --h1: 700 4.375rem  "Roboto Slab", serif;
-        --h2: 700 3.75rem  "Roboto Slab", serif;
-        --h3: 500 3.75rem  "Roboto", sans-serif;
-        --h4: 500 1.563rem  "Roboto", sans-serif;
-        --h5: 500 1.25rem  "Roboto", sans-serif;
+        --h1: 700 4.375rem  "NotoSerifJP", serif;
+        --h2: 700 3.75rem  "NotoSerifJP", serif;
+        --h3: 500 3.75rem  "NotoSerifJP", serif;
+        --h4: 500 1.563rem  "NotoSerifJP", serif;
+        --h5: 500 1.25rem  "NotoSerifJP", serif;
         
         /* contenu */
-        --p: 400 1.25rem  "Roboto", sans-serif;
-        --label: 300 1.25rem  "Roboto", sans-serif;
+        --p: 400 1.25rem  "Lato", sans-serif;
+        --label: 300 1.25rem  "NotoSerifJP", serif;
     }
 }
