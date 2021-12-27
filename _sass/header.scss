@@ -1,17 +1,24 @@
 header {
-    position: fixed;
-    writing-mode: vertical-lr;
-    z-index: 1;
 
-    .left {
+    @media screen and (min-width:768px) {
         position: fixed;
-        top: 0;
-        left: 0;
+        writing-mode: vertical-lr;
+        z-index: 1;
+
+        .left {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .right {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
     }
-
-    .right {
-        position: fixed;
-        bottom: 0;
-        right: 0;
+    
+    @media screen and (max-width:768px){
+        display: none;
     }
 }

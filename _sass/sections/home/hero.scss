@@ -8,8 +8,31 @@
     }
 
     .nav {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        width: 100%;
     }
+
+    @media screen and (max-width: 768px) {
+        .menu {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .menu {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+
+   
     .menu {
+        grid-column: 2;
+        display: flex;
+        flex-wrap: wrap;
+        border: solid 0.2rem var(--t1);
     }
 
     .flex-items {
