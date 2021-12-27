@@ -1,4 +1,18 @@
 #works {
     background-color: var(--b2);
     color: var(--t2);
+
+    .wave {
+        background-color: var(--b1);
+        line-height: 0;
+    }
+
+    .work {
+        padding: var(--paddingheight) var(--paddingside);
+
+        .titre {
+            text-transform: uppercase;
+        }
+    }
+
 }

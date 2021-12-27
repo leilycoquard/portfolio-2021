@@ -1,3 +1,17 @@
-#header {
-    
+header {
+    position: fixed;
+    writing-mode: vertical-lr;
+    z-index: 1;
+
+    .left {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .right {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
 }

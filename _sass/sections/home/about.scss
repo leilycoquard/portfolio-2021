@@ -1,0 +1,17 @@
+#about {
+    background-color: var(--b3);
+    color: var(--t3);
+
+    .wave {
+        background-color: var(--b2);
+        line-height: 0;
+    }
+
+    .about_section {
+        padding: var(--paddingheight) var(--paddingside);
+
+        .titre {
+            text-transform: uppercase;
+        }
+    }
+}

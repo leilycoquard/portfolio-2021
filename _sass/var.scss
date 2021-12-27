@@ -29,13 +29,16 @@ html[data-theme="dark"] {
         /* titres */
         --h1: 700 1.875rem  "NotoSerifJP", serif;
         --h2: 500 1.563rem  "NotoSerifJP", serif;
-        --h3: 500 1.25rem  "NotoSerifJP", serif;
+        --h3: 500 1.365rem  "NotoSerifJP", serif;
         --h4: 500 1.25rem  "NotoSerifJP", serif;
         --h5: 500 1.25rem  "NotoSerifJP", serif;
         
         /* contenu */
         --p: 400 1.25rem  "Lato", sans-serif;
         --label: 300 1.25rem  "NotoSerifJP", serif;
+
+        --paddingheight: 0.5rem;
+        --paddingside: 1rem;
     }
 }
 
@@ -44,12 +47,15 @@ html[data-theme="dark"] {
         /* titres */
         --h1: 700 4.375rem  "NotoSerifJP", serif;
         --h2: 700 3.75rem  "NotoSerifJP", serif;
-        --h3: 500 3.75rem  "NotoSerifJP", serif;
+        --h3: 500 2.5rem  "NotoSerifJP", serif;
         --h4: 500 1.563rem  "NotoSerifJP", serif;
         --h5: 500 1.25rem  "NotoSerifJP", serif;
         
         /* contenu */
         --p: 400 1.25rem  "Lato", sans-serif;
         --label: 300 1.25rem  "NotoSerifJP", serif;
+
+        --paddingheight: 2rem;
+        --paddingside: 5rem;
     }
 }

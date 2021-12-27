@@ -1,0 +1,17 @@
+#contact {
+    background-color: var(--b4);
+    color: var(--t4);
+
+    .wave {
+        background-color: var(--b3);
+        line-height: 0;
+    }
+
+    .contact_section {
+        padding: var(--paddingheight) var(--paddingside);
+
+        .titre {
+            text-transform: uppercase;
+        }
+    }
+}

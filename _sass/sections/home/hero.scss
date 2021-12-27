@@ -1,4 +1,20 @@
 #hero {
     background-color: var(--b1);
     color: var(--t1);
+
+    .presentation {
+        text-align: center;
+        padding: var(--paddingheight) var(--paddingside);
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .menu {
+        display: flex;
+        flex-flow: row wrap;
+        
+        border: solid var(--t1);
+    }
 }
