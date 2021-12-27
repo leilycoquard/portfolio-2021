@@ -11,12 +11,18 @@
         display: grid;
         grid-template-columns: 20% 60% 20%;
         width: 100%;
+        padding: var(--paddingheight) var(--paddingside);
     }
 
     @media screen and (max-width: 768px) {
         .menu {
             flex-direction: column;
             align-items: center;
+        }
+
+        .padding_tb {
+            padding-top: 10rem;
+            padding-bottom: 10rem;
         }
     }
 
@@ -25,6 +31,10 @@
             flex-direction: row;
             justify-content: space-around;
         }
+        .padding_tb {
+            padding-top: 10rem;
+            padding-bottom: 8rem;
+        }
     }
 
    
@@ -32,6 +42,8 @@
         grid-column: 2;
         display: flex;
         flex-wrap: wrap;
+        padding: var(--paddingheight) var(--paddingside);
+
         border: solid 0.2rem var(--t1);
     }
 
