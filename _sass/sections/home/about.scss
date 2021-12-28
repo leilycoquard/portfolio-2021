@@ -9,10 +9,14 @@
 
     .about_section {
         padding: var(--paddingheight) var(--paddingside);
-        text-align: right;
+
+        .titles {
+            text-align: right;
         
-        .titre {
-            text-transform: uppercase;
+            .titre {
+                text-transform: uppercase;
+            }
         }
+        
     }
 }

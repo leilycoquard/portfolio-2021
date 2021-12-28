@@ -19,6 +19,11 @@
         padding: var(--paddingheight) var(--paddingside);
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     @media screen and (max-width: 768px) {
         .menu {
             flex-direction: column;
