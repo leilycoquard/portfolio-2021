@@ -5,6 +5,16 @@
     .wave {
         background-color: var(--b1);
         line-height: 0;
+        animation: object 3s linear infinite;
+    }
+
+    @keyframes object {
+        0%, 100% {
+            transform: translateY(0%);
+        }
+        40% {
+            transform: translateY(-20%);
+        }
     }
 
     .work {
