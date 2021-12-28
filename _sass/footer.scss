@@ -24,12 +24,19 @@ footer {
         }
         .left {
             flex-direction: row;
+            justify-content: space-between;
+            width: 30rem;
         }
     }
 
     @media screen and (max-width:768px) {
         .footer_flex {
+            margin-top: 2rem;
             flex-direction: column;
+
+            * {
+                margin-bottom: 1rem;
+            }
         }   
         .left {
             flex-direction: column;
@@ -37,6 +44,8 @@ footer {
         }
         .right {
             align-self: center;
+            text-align: center;
+            max-width: 60%;
         }
     }
 
